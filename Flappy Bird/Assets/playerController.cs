@@ -16,7 +16,7 @@ public class playerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-          rb.velocity = new Vector2(2f, 0f);
+         
          if(Input.GetMouseButtonDown(0))
         {
             rb.velocity = Vector2.zero;
